@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #213e74;
+    border-bottom: 1px solid #ccc;
+    margin-top: 5px;
+}
+
+.logo {
+    height: 40px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-icon {
+    width: 55px;
+    height: 55px;
+    margin-right: 45px; /* Thêm margin giữa các biểu tượng */
+}
+.nav-icon:hover {
+    background-color: #333333;
+}
+.profile-pic {
+    height: 40px;
+    border-radius: 50%;
+}
